@@ -5,18 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap
+    .min.css" rel="stylesheet" integrity="sha384-
+    +0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMv
+    yTG2x" crossorigin="anonymous">
 
     <title>PorfolioJ</title>
-<!--link en una etiqueta html y se usa para enlazar, en este caso con style.css (el estilo) rel y href atributos, stylesheet y style.css nombre de arcivo-->
+    <!--link en una etiqueta html y se usa para enlazar, en este caso con style.css (el estilo) rel y href atributos, stylesheet y style.css nombre de arcivo-->
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
     <header>
-        <h1>Mi Porfolio</h1>
+        <div class="cabeza">
+            <h1>Porfolio</h1>
+            <!--use figure para superponer fotos, con position:absolute (lo hace "transparente") y distancie un poco el texto de li agregandole margin-boton a la class cabeza, seguir probando para desencimar el nav,ul y li de foto2 -->
+            <figure>
+                <img class="foto1" src="fondo.jpg" alt="imagen montaña">
+            </figure>
+        </div>
+        <div>
+            <figure>
+                <img class="foto2" src="persona.jpg" alt="persona">
+            </figure>
+        </div>
     </header>
-    <img src="direccionImagen.jpg" alt="definicionimagen">
+
     <nav>
         <!--nav es para insertar navegador y ul para lista desordenada y li permite agregar item-->
         <ul>
@@ -24,6 +39,8 @@
             <li>futuros botones o redirecciones</li>
             <li>futuros botones o redirecciones</li>
             <li>futuros botones o redirecciones</li>
+            <li>futuros botones o redirecciones</li>
+
             <!--escribir en varias lineas: mantener alt y click-->
     </nav>
 

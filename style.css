@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabeza {
+    background-color: rgba(29, 29, 250, 0.774);
+    text-align: center;}
+
+header{
+margin-bottom: 380px;
+}
+
+figure{
+    position:absolute;
+    border: 5px solid black
+}
+
+.foto1 {
+    width: 100%;
+    border: 4px solid green
+    
+}
+
+.foto2 {
+    width: 25%;
+    padding-top: 260px;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    border: 1px solid red
+}
+
+li {
+    text-align: center;
+    display: inline-block;
+    margin: 2px 50px;
+    border: 1px solid cornflowerblue;
+}
