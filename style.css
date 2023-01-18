@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family:georgia;
 }
 
 .cabeza {
@@ -34,22 +35,41 @@ figure {
 /*cambiar en index las li,ol,ul por botones rediccionando a partes de la pag, historia, lugar, etc.
 (O mas adelante por boton (con javascript)que inserte o modifique texto de un bloque, seccion, elemento)*/
 
-.redireccion1 {
+.container {
     text-align: center;
     display: inline-flex;
     margin: 2px 5px;
-    float: right;
+    float:none;
     border: 1px solid cornflowerblue;
 }
 
+.container2 {
+    
+    border: 1px solid cornflowerblue;
+}
+/*cambie el div ol class redireccion1 y li por div class container row*/
+/*"d-grid gap-2 d-md-flex justify-content-md-end" estaba en el div class redireccion2*/
+
 .redireccion2 {
     display: inline-flex;
-    margin: 0px 0px 0px 600px;
+    margin: 0px 0px 0px 1160px;
     border: 1px solid cornflowerblue;
+}
+
+.btn {
+    margin: 0px 15px;
+}
+
+.btn2 {
+    margin: 0px 20px;
 }
 
 article {
     padding-top: 100px;
     padding-bottom: 100px;
     border: 2px solid violet;
+}
+
+li{
+    margin-left: 30px;
 }
