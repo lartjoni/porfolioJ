@@ -17,92 +17,124 @@
 </head>
 
 <body>
+
     <header>
-        <div class="cabeza">
-            <h1>Porfolio</h1>
-            <!--use figure para superponer fotos, con position:absolute (lo hace "transparente") y distancie un poco el texto de li agregandole margin-boton a la class cabeza, seguir probando para desencimar el nav,ul y li de foto2 -->
-            <figure>
-                <img class="foto1" src="fondo.jpg" alt="imagen montaña">
-            </figure>
-        </div>
         <div>
-            <figure>
-                <img class="foto2" src="persona.jpg" alt="persona">
-                <!--para poner elementos al rededor de la foto, cree el "div>ol class" dentro de su bloque (figure), seguir investigando.
+            <div class="cabeza">
+                <h1>Milo de Escorpio</h1>
+            </div>
+            <div class="foto1">
+                <img src="fondo.jpg" width="100%" alt="imagen montaña">
+            </div>
+            <div class="foto2">
+                <img src="persona.jpg" width="100%" alt="persona">
+            </div>
+            <!--para poner elementos al rededor de la foto, cree el "div>ol class" dentro de su bloque (figure), seguir investigando.
         y cambiar o borrar lista por botones redireccionadores (o editores con .js) directamente-->
-                <div class="container">
-                    <div class="row">
-                        <div class="col">Tecnicas</div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">Tecnicas</div>
+                    <div class="col">Lugar de Nacimiento</div>
 
-                    </div>
                 </div>
-                <div class="container2">
-                    <div class="row">
-                        <div class="col">Lugar de Nacimiento</div>
-
-                    </div>
-                </div>
-            </figure>
+            </div>
         </div>
-
     </header>
+
+    <!--use figure para superponer fotos, con position:absolute (lo hace "transparente") y distancie un poco el texto de li agregandole margin-boton a la class cabeza, seguir probando para desencimar el nav,ul y li de foto2 -->
+
+
 
     <nav>
         <!--nav es para insertar navegador y ul para lista desordenada y li permite agregar item-->
         <!--para repetir li x 2: escribir li*2 y enter-->
         <div class="redireccion2">
-            <button class="btn btn-primary me-md-2" type="button">Personalidad</button>
-            <button class="btn2 btn-primary" type="button">Datos Extras</button>
+            <div class="btn1">
+                <button type="button">Personalidad</button>
+            </div>
+            <div class="btn2">
+                <button type="button">Datos Extras</button>
+            </div>
         </div>
         <!--escribir en varias lineas: mantener alt y click-->
     </nav>
-
-    <div>
-        <!--tipo contenedor para varios usos: id, class, atributos etc. ej: agregamos dentro header, h1, footer etc y en css le damos color al fondo o comportamiento llamandolo con nav{backgraund: rojo}; dando un color al fondo rojo dentro esos h1,footer etc con sus estilos propios. Asi: lo abrimos debajo de tittle <div> y los cerramos abajo de footer </div>-->
-    </div>
-
+    <!--tipo contenedor para varios usos: id, class, atributos etc. ej: agregamos dentro header, h1, footer etc y en css le damos color al fondo o comportamiento llamandolo con nav{backgraund: rojo}; dando un color al fondo rojo dentro esos h1,footer etc con sus estilos propios. Asi: lo abrimos debajo de tittle <div> y los cerramos abajo de footer </div>-->
     <section>
-        <article>
-            <h2>Lugar de Nacimiento</h2>
-            <p><strong>Pais: </strong>Grecia
-                <br>
-                <strong>Localidad: </strong>Milos (isla volcánica del mar Egeo, del grupo de las Cícladas).
-            </p>
-        </article>
-        <article>
-            <h2>Tecnicas</h2>
-            <p><strong>Especiales: </strong></p>
-            <ul>
-                <li><u>Restricción:</u> usa su poder psíquico para poder paralizar completamente a su enemigo, como si se
-                    tratase de un animal víctima de un escorpión.</li>
-                    <br>
-                <li><u>Aguja Escarlata:</u> la principal técnica de Milo, en ella va disparando ataques que al impactar en el
-                    enemigo asemejan a la picadura de un escorpión. A medida que ataca, va dibujando en el cuerpo de su
-                    oponente la constelación del Escorpión por lo que los primeros 13 golpes producen un dolor
-                    extremadamente agudo. A partir del golpe número 14, de las perforaciones en el cuerpo de la víctima
-                    comienzan a brotar chorros de sangre y gradualmente pierde sus 5 sentidos además de producir un
-                    agudo dolor similar al producido por la picadura de un Escorpión. Las Agujas Escarlata son 15 golpes
-                    en secuencia (como las estrellas de la constelación de Escorpio) y la última se llama
-                        <i>Antares</i> (por ser el corazón de la constelación) que es la más poderosa y mortal de
-                    todas, el ataque definitivo. Las 15 agujas se pueden lanzar de forma individual, haciendo sufrir al
-                    rival, o todas a la vez. Aunque en realidad, Antares no mata instantáneamente al oponente, en
-                    realidad este último golpe es considerado el clímax de la técnica.</li>
-<br>
-                <li><u>Electro-Escorpio:</u> adoptando una posición parecida a la de un escorpión en actitud ofensiva, lanza
-                    una llamarada desde el aguijón de la constelación que se dibuja tras él, genera un poderoso
-                    torbellino eléctrico capas de destruir una isla promedio.</li>
-                </ul>
-        </article>
-        <article>
-            <h2>Personalidad</h2>
-            <p>A pesar de parecer como una persona cruel y despiadada en un principio, a medida del tiempo se fue mostrando como una persona humilde y fiel a sus compañeros. Es un caballero muy orgulloso y con mucha confianza en sí mismo.</p>
-        </article>
-        <article>
-            <h2>Datos Extras</h2>
-            <p>Milo es una palabra de origen griego (milos).
-               <br>
-                Milo en griego significa manzana.</p>
-        </article>
+        <div>
+            <article>
+
+                <div class="primer-article">
+                    <h2>Lugar de Nacimiento</h2>
+                    <p><strong>Pais: </strong>Grecia
+                        <br>
+                        <strong>Localidad: </strong>Milos (isla volcánica del mar Egeo, del grupo de las Cícladas).
+                    </p>
+                </div>
+
+                <div class="segundo-article">
+                    <h2>Tecnicas</h2>
+                    <p><strong>Especiales: </strong></p>
+                    <ul>
+                        <li><u>Restricción:</u> usa su poder psíquico para poder paralizar completamente a su
+                            enemigo,
+                            como si se
+                            tratase de un animal víctima de un escorpión.</li>
+
+                        <li><u>Aguja Escarlata:</u> la principal técnica de Milo, en ella va disparando ataques que
+                            al
+                            impactar en el
+                            enemigo asemejan a la picadura de un escorpión. A medida que ataca, va dibujando en el
+                            cuerpo de su
+                            oponente la constelación del Escorpión por lo que los primeros 13 golpes producen un
+                            dolor
+                            extremadamente agudo. A partir del golpe número 14, de las perforaciones en el cuerpo de
+                            la
+                            víctima
+                            comienzan a brotar chorros de sangre y gradualmente pierde sus 5 sentidos además de
+                            producir
+                            un
+                            agudo dolor similar al producido por la picadura de un Escorpión. Las Agujas Escarlata
+                            son
+                            15 golpes
+                            en secuencia (como las estrellas de la constelación de Escorpio) y la última se llama
+                            <i>Antares</i> (por ser el corazón de la constelación) que es la más poderosa y mortal
+                            de
+                            todas, el ataque definitivo. Las 15 agujas se pueden lanzar de forma individual,
+                            haciendo
+                            sufrir al
+                            rival, o todas a la vez. Aunque en realidad, Antares no mata instantáneamente al
+                            oponente,
+                            en
+                            realidad este último golpe es considerado el clímax de la técnica.
+                        </li>
+
+                        <li><u>Electro-Escorpio:</u> adoptando una posición parecida a la de un escorpión en actitud
+                            ofensiva, lanza
+                            una llamarada desde el aguijón de la constelación que se dibuja tras él, genera un
+                            poderoso
+                            torbellino eléctrico capas de destruir una isla promedio.</li>
+                    </ul>
+                </div>
+
+                <div class="tercer-article">
+                    <h2>Personalidad</h2>
+                    <p>A pesar de parecer como una persona cruel y despiadada en un principio, a medida del tiempo
+                        se
+                        fue mostrando como una persona humilde y fiel a sus compañeros. Es un caballero muy
+                        orgulloso y
+                        con mucha confianza en sí mismo.</p>
+                </div>
+
+                <div class="cuarto-article">
+                    <h2>Datos Extras</h2>
+                    <p>Milo es una palabra de origen griego (milos).
+                        <br>
+                        Milo en griego significa manzana.
+                    </p>
+                </div>
+
+            </article>
+        </div>
     </section>
 
     <aside>
@@ -114,5 +146,6 @@
         texto o demas a pie d pagina
     </footer>
 </body>
+</div>
 
 </html>
